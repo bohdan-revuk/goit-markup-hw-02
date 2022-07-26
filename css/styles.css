@@ -11,7 +11,7 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: var(--primari-bg-color);
+  background-color: var(--accent-color);
 }
 .list {
   list-style: none;
@@ -85,17 +85,17 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--primari-text-color);
-  background-color: var(--secondary-bg-color);
+  color: var(--accent-color);
+  background-color: var(--primari-link-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
 }
-.button.primary:hover,
+/*.button.primary:hover,
 .button.primary:focus {
   color: var(--accent-color);
   background-color: var(--primari-link-color);
-}
+}*/
 /* <!--Особливості--> */
 /*section-feature*/
 .feature-title {
@@ -158,24 +158,53 @@ body {
 .footer {
   background-color: var(--hero-footer-bg);
 }
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primari-link-color);
+}
+.footer-studio {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
 .address-nav .map.link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  font-style: normal;
 }
 .address-nav .map.link:hover,
 .address-nav .map.link:focus {
   color: var(--primari-link-color);
 }
-.address-nav .link {
+.address-nav .mail.link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
-.address-nav .link:hover,
-.address-nav .link:focus {
+.address-nav .mail.link:hover,
+.address-nav .mail.link:focus {
+  color: var(--primari-link-color);
+}
+.address-nav .tel.link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+.address-nav .tel.link:hover,
+.address-nav .tel.link:focus {
   color: var(--primari-link-color);
 }
 /* <!--Портфоліо--> */
